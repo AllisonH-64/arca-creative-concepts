@@ -2,7 +2,7 @@
 
 Website for **ARCA Creative Concepts** — a Barbados-based, family-run studio making handmade knit, crochet, sewing, and jewelry pieces, and teaching crochet and dressmaking classes.
 
-🔗 Live site: _add your GitHub Pages / custom domain link here once it's live_
+🔗 Live site: [allisonh-64.github.io/arca-creative-concepts](https://allisonh-64.github.io/arca-creative-concepts/)
 
 ## About
 
