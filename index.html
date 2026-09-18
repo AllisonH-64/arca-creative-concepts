@@ -1,1 +1,10 @@
 <script src="https://cdn.jsdelivr.net/npm/gsap@3.13.0/dist/gsap.min.js"></script>
+<div class="box">Hello GSAP!</div>
+<script>
+  gsap.to(".box", {
+    x: 200,        // move 200px to the right
+    rotation: 360, // spin in a full circle
+    duration: 2,   // animation lasts 2 seconds
+    ease: "power2.inOut"
+  });
+</script>
