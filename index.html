@@ -1,4 +1,5 @@
 <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
 <title>ARCA Creative Concepts</title>
 <style>
   @import url('https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,500;0,9..144,600;1,9..144,500;1,9..144,600&family=Work+Sans:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500;600&display=swap');
@@ -117,7 +118,8 @@
   }
 
   @media (max-width: 760px) {
-    nav.main-nav { order: 3; width: 100%; overflow-x: auto; justify-content: flex-start; padding-top: 6px; }
+    .head-row { flex-wrap: wrap; }
+    nav.main-nav { order: 3; width: 100%; flex-wrap: nowrap; overflow-x: auto; justify-content: flex-start; padding-top: 6px; }
   }
 
   main { display: block; }
