@@ -706,7 +706,7 @@ var IMG = {"logo_white": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wB
       jewelry: ['More jewelry on the way', 'New pieces are added as they’re finished — in the meantime, if you see a style you want, ARCA takes jewelry commissions too.'],
       wallhanging: ['New: Wall Hangings', 'ARCA’s wall hanging pieces are on their way — check back soon, or message ARCA to ask about a custom design.']
     };
-    if (emptyNotes[filter]) {
+    if (emptyNotes[filter] && list.length === 0) {
       var empty = document.createElement('div');
       empty.className = 'empty-state';
       empty.innerHTML = '<strong>' + emptyNotes[filter][0] + '</strong>' + emptyNotes[filter][1];
