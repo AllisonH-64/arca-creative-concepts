@@ -38,6 +38,8 @@ This repo is set up to be hosted with **GitHub Pages**:
 
 Since everything lives in one file, updates mean editing `index.html` directly (or replacing it with a newer exported version) and pushing the change to this repository — GitHub Pages will pick it up automatically.
 
+See [CHANGELOG.md](CHANGELOG.md) for a history of what's changed.
+
 ## Contact
 
 - Email: arcacreativeconcepts@gmail.com
