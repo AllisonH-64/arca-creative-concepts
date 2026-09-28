@@ -367,7 +367,7 @@
           </button>
           <button class="cat-tile" data-nav="shop" data-cat="crochet" style="--tile-color: var(--coral)">
             <span class="dot" style="background:var(--coral)"></span>
-            <div><span class="name">Crochet</span><div class="count">10 pieces shown</div></div>
+            <div><span class="name">Crochet</span><div class="count">11 pieces shown</div></div>
           </button>
           <button class="cat-tile" data-nav="shop" data-cat="sewing" style="--tile-color: var(--terracotta)">
             <span class="dot" style="background:var(--terracotta)"></span>
@@ -723,6 +723,14 @@ var IMG = {"logo_white": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wB
   });
 
   renderShop('all');
+
+  /* ---------- home category counts (derived from PRODUCTS) ---------- */
+  Array.prototype.forEach.call(document.querySelectorAll('.cat-tile[data-cat]'), function (tile) {
+    var countEl = tile.querySelector('.count');
+    if (!countEl) return;
+    var n = PRODUCTS.filter(function (p) { return p.cat === tile.dataset.cat; }).length;
+    countEl.textContent = n + (n === 1 ? ' piece' : ' pieces') + ' shown';
+  });
 
   /* ---------- view routing ---------- */
   var VIEWS = ['home', 'shop', 'classes', 'commission', 'about', 'contact'];

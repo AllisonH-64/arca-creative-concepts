@@ -2,6 +2,10 @@
 
 Notable changes to the ARCA Creative Concepts site. See the [README](README.md) for what the site is and how to run/deploy it.
 
+## 2026-09-28
+
+- Home page category counts ("N pieces shown") are now calculated from the Our Work product list, so they stay correct as pieces are added or removed. This fixes the Crochet tile, which said 10 pieces when there are 11.
+
 ## 2026-09-19
 
 - Added a new Wall Hangings piece: **God Bless This Home Wall Hanging** (filet crochet on a pink board).
