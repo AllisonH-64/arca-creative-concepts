@@ -2,6 +2,12 @@
 
 Notable changes to the ARCA Creative Concepts site. See the [README](README.md) for what the site is and how to run/deploy it.
 
+## 2026-09-29
+
+- Added a new Knit piece: **Lavender & Blush Steering Wheel Cover**, knitted by Carlene (the other car's number plate is blurred in the photo).
+- Added **Independence Key Rings**, plastic canvas key rings in the Barbados flag colours by Allison, under Jewelry / Accessories.
+- Checked both new cards at phone width.
+
 ## 2026-09-28
 
 - Home page category counts ("N pieces shown") are now calculated from the Our Work product list, so they stay correct as pieces are added or removed. This fixes the Crochet tile, which said 10 pieces when there are 11.
