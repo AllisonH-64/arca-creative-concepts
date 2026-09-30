@@ -7,6 +7,9 @@ Notable changes to the ARCA Creative Concepts site. See the [README](README.md) 
 - Replaced the sideways-scrolling phone menu, which cut off "About" and "Contact", with a ☰ menu button that opens a full-width list of all six pages and closes when you pick one (it reads "☰ Menu" on tablets). Desktop is unchanged.
 - Fixed the Home page's opening text and photo running right up to the screen edges on phones.
 - Fixed the Contact page being slightly wider than a phone screen (the email address couldn't wrap), which let the page wobble sideways.
+- Stopped iPhones zooming in when you tap a Contact form field (the fields now use 16px text).
+- Made the footer links bigger and easier to tap on phones.
+- The Contact email now wraps before the "@" instead of splitting off "com", and each phone number stays on one line.
 
 ## 2026-09-29
 
