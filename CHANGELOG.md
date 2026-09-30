@@ -10,6 +10,7 @@ Notable changes to the ARCA Creative Concepts site. See the [README](README.md) 
 - Stopped iPhones zooming in when you tap a Contact form field (the fields now use 16px text).
 - Made the footer links bigger and easier to tap on phones.
 - The Contact email now wraps before the "@" instead of splitting off "com", and each phone number stays on one line.
+- Class status update: the crochet term is full and in session, and dressmaking is suspended until January 2027 (Home, Classes, and Contact pages).
 
 ## 2026-09-29
 
