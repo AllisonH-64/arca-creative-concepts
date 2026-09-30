@@ -2,6 +2,11 @@
 
 Notable changes to the ARCA Creative Concepts site. See the [README](README.md) for what the site is and how to run/deploy it.
 
+## 2026-09-30
+
+- Replaced the sideways-scrolling phone menu, which cut off "About" and "Contact", with a ☰ menu button that opens a full-width list of all six pages and closes when you pick one (it reads "☰ Menu" on tablets). Desktop is unchanged.
+- Fixed the Home page's opening text and photo running right up to the screen edges on phones.
+
 ## 2026-09-29
 
 - Added a new Knit piece: **Lavender & Blush Steering Wheel Cover**, knitted by Carlene (the other car's number plate is blurred in the photo).
