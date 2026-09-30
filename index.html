@@ -326,8 +326,9 @@
   .contact-info-list { list-style: none; margin: 0; padding: 0; display: flex; flex-direction: column; gap: 14px; }
   .contact-info-list li { display: flex; gap: 12px; font-size: 14px; }
   .contact-info-list .k { font-family: 'IBM Plex Mono', monospace; font-size: 11px; text-transform: uppercase; color: var(--ink-faint); width: 76px; flex-shrink: 0; padding-top: 2px; }
+  .contact-info-list li > :last-child { min-width: 0; overflow-wrap: anywhere; }
   .contact-info-list a { color: var(--magenta); text-decoration: none; border-bottom: 1px solid currentColor; }
-  @media (max-width: 760px) { .contact-grid { grid-template-columns: 1fr; } }
+  @media (max-width: 760px) { .contact-grid { grid-template-columns: minmax(0, 1fr); } }
 
   /* ============ footer ============ */
   footer.site-foot { border-top: 1px solid var(--border); padding: 30px 0 40px; }
